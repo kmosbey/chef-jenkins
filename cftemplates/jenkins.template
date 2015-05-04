@@ -8,7 +8,7 @@
       "Type": "AWS::EC2::Instance",
       "Properties": {
         "Tags": [ { "Key" : "Name", "Value": "jenkins1" } ],
-        "ImageId" : "ami-1ecae776",
+        "ImageId" : "ami-e7527ed7",
         "InstanceType"   : "t2.micro",
         "SecurityGroupIds" : [ "sg-81a0ace4", "sg-0fbfb36a" ],
         "SubnetId"       : "subnet-1221b377",

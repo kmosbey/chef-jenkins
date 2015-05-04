@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name "jenkins" --template-url "https://s3.amazonaws.com/cf-templates-kgm/jenkins.template" --tags '[{"Key":"cf","Value":"true"},{"Key":"app","Value":"jenkins"}]'
